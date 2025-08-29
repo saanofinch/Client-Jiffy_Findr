@@ -4,6 +4,9 @@ import http from "http";
 import { app } from "./app";
 import { connectDB } from "./config/db";
 
+// ADD THIS LINE
+import "./models";
+
 const PORT = Number(process.env.PORT) || 4000;
 const MONGO_URI = process.env.MONGO_URI || "";
 

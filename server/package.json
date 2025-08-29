@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-  "build": "tsc",
-  "start": "node dist/server.js",
-  "seed": "ts-node-dev --transpile-only src/seed.ts"
-},
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "seed": "ts-node-dev --transpile-only src/seed.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -19,7 +19,8 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.18.0",
-    "morgan": "^1.10.1"
+    "morgan": "^1.10.1",
+    "zod": "^4.1.5"
   },
   "devDependencies": {
     "@types/bcryptjs": "^3.0.0",
